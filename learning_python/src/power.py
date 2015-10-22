@@ -3,8 +3,7 @@ Created on Oct 22, 2015
 
 @author: tomas
 '''
-L = []
-for i in range(7): L.append(2 ** i)
+L = [2 ** i for i in range(7)]
 
 print(L)
 X = 5
